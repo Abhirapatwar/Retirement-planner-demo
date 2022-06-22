@@ -1,0 +1,238 @@
+.box2 {
+    /* border: 1px solid grey; */
+    height: 100vh;
+
+}
+
+.box21 {
+    /* border: 1px solid grey; */
+    margin-top: 20px;
+    height: fit-content;
+
+}
+
+.box211 {
+    /* border: 1px solid rgb(22, 5, 211); */
+    /* height: 50px; */
+    height: 10vh;
+
+}
+
+.box212 {
+    /* border: 1px solid rgb(22, 5, 211); */
+    /* height: 70px; */
+    height: fit-content;
+
+}
+
+.box2121 {
+    /* border: 1px solid rgb(224, 148, 24); */
+    /* height: 70px; */
+    height: 14vh;
+    overflow: hidden;
+
+}
+
+.box2122 {
+    /* border: 1px solid rgb(177, 211, 5); */
+    /* height: 70px; */
+    height: 14vh;
+    overflow: hidden;
+
+}
+
+.box213 {
+    /* border: 1px solid rgb(22, 5, 211); */
+    /* background-color: rgb(197, 220, 121); */
+    /* height: 200px; */
+    height: 45vh;
+
+}
+
+.box214 {
+    /* border: 1px solid rgb(22, 5, 211); */
+    /* background-color: rgb(222, 205, 94); */
+    /* height: 145px; */
+    height: 26vh;
+    overflow: hidden;
+
+}
+
+.box215 {
+    /* border: 1px solid rgb(22, 5, 211); */
+    /* background-color: cadetblue; */
+    /* height: 50px; */
+    height: 5vh;
+    display: none;
+}
+
+.box212 hr {
+    margin: 0px;
+
+}
+
+.box2122a {
+    /* border: 1px solid rgb(22, 5, 211); */
+    height: 14vh;
+    overflow: hidden;
+}
+
+.box2122b {
+    /* border: 1px solid rgb(60, 167, 85); */
+    height: 14vh;
+    overflow: hidden;
+}
+
+.chartBox {
+    /* width: 90%;
+    height: 100%; */
+    width: 100%;
+    height: 80%;
+    /* padding: 25px; */
+    /* border-radius: 20px; */
+    background: white;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.box214a {
+    /* border: 1px solid rgb(60, 167, 85); */
+    margin-top: 10px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.box214b {
+    /* border: 1px solid rgb(8, 43, 182); */
+    /* background-color: cadetblue; */
+    margin-top: 10px;
+    height: 120px;
+    overflow: hidden;  
+}
+.cha{
+    /* border: 1px solid rgb(66, 73, 100); */
+    height: 80px;
+}
+.average{
+    margin-left:3%;
+}
+.top{
+    margin-left: 5%;
+}
+.labels{
+    padding-left: 30px;
+}
+.labels li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding-right:20%;
+}
+
+.labels:nth-child(3) {
+    padding-left:0px;
+}
+
+svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: rgb(38, 203, 24);
+    stroke-width: 5px;
+    /* stroke-linecap: round; */
+    transform: translate(5px, 5px);
+    stroke-dasharray: 150;
+    stroke-dasharray: 150;
+}
+
+.svg1 circle:nth-child(2) {
+    stroke-dashoffset: calc(120 - (360*68)/100);
+    stroke: rgb(38, 203, 24);
+    stroke-width: 10px;
+}
+
+.svg2 circle:nth-child(2) {
+    stroke-dashoffset: calc(120 - (270*80)/100);
+    stroke: rgb(38, 203, 24);
+    stroke-width: 10px;
+}
+
+.svg3 circle:nth-child(2) {
+    stroke-dashoffset: calc(120 - (310*59)/100);
+    stroke: rgb(38, 203, 24);
+    stroke-width: 10px;
+}
+
+
+/* --------------------------------------------------------------------------- */
+@media screen and (max-width:576px) {
+    .box2 {
+        border: 1px solid lightgrey;
+        height: fit-content;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+
+    .box215 {
+        /* border: 1px solid rgb(22, 5, 211); */
+        /* background-color: cadetblue; */
+        /* height: 50px; */
+        height: 7vh;
+        display: block;
+        overflow: hidden;
+    }
+    .box215 li{
+        list-style: none;
+        display: inline-block;
+        margin-top: 8px;
+    }
+
+    .box213 {
+        /* border: 1px solid rgb(22, 5, 211); */
+        /* height: 225px; */
+        height: 50vh;
+    }
+
+    .box214 {
+        /* border: 1px solid rgb(22, 5, 211); */
+        height: 142px;
+        display: none;
+
+    }
+
+    .box212 {
+        /* border: 1px solid rgb(22, 5, 211); */
+        height: fit-content;
+    }
+
+    .box2122 {
+        /* border: 1px solid rgb(177, 211, 5); */
+        /* height: 70px; */
+        height: fit-content;
+        overflow: hidden;
+
+    }
+
+    .box2122a {
+        /* border: 1px solid rgb(22, 5, 211); */
+        /* height: 14vh; */
+        height: fit-content;
+        overflow: hidden;
+        padding-bottom: 5px;
+    }
+
+    .box2122b {
+        /* border: 1px solid rgb(60, 167, 85); */
+        /* height: 14vh; */
+        height: fit-content;
+        overflow: hidden;
+        padding-bottom: 5px;
+    }
+    .labels li{
+        display: inline-block;
+        float: left;
+        list-style: none;
+        padding-right:18%;
+    }
+
+}
